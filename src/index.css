@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+}
+
+.custom-sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 80px; /* Height of the navbar */
+  z-index: 100;
+}
